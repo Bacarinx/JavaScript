@@ -10,7 +10,7 @@ function calcular() {
             
             const calculo = Number(num.value) * i
             const opt = document.createElement('option')
-            opt.innerHTML = `${Number(num.value)}x${i} = ${calculo}`
+            opt.innerHTML = `${Number(num.value)} x ${i} = ${calculo}`
             
             tabuada.appendChild(opt)
         }
